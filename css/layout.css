@@ -1,0 +1,338 @@
+body{
+    background-color: white;
+    font-family: 'arial narrow', Arial, Helvetica, sans-serif;
+    color: white;
+    width: 100vw;
+    height: calc(102400vw/1440);
+    overflow-x: hidden;
+}
+
+.main{
+    width: 100vw;
+    height: calc(102400vw/1440);
+    overflow: hidden;
+    background-color: palegreen;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.red1{
+    width: calc(130000vw/1440);
+    height: calc(10000vw/1440);
+    background-color: #FF051A;
+    display: flex;
+    overflow: hidden;
+}
+
+.blue1{
+    width: calc(14000vw/1440);
+    height: calc(10000vw/1440);
+    background-color: #0037FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white1{
+    width: calc(10000vw/1440);
+    height: calc(20000vw/1440);
+    background-color: white;
+}
+
+.blue2{
+    width: calc(50000vw/1440);
+    height: calc(20000vw/1440);
+    background-color: #0037FF;
+    display: flex;
+    align-items:end;
+    justify-content: start;
+}
+
+.white2{
+    width: calc(40000vw/1440);
+    height: calc(20000vw/1440);
+    background-color: white;
+}
+
+.rand1{
+    width: calc(30000vw/1440);
+    height: calc(20000vw/1440);
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.pink1{
+    width: calc(14000vw/1440);
+    height: calc(20000vw/1440);
+    background-color: #FF4BCF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pink2{
+    width: calc(10000vw/1440);
+    height: calc(30000vw/1440);
+    background-color: #FF4BCF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pust1{
+    width: calc(50000vw/1440);
+    height: calc(30000vw/1440);
+}
+
+.rand2{
+    width: calc(50000vw/1440);
+    height: calc(60000vw/1440);
+    position: absolute;
+    background-color: aqua;
+    left: calc(10000vw/1440);
+    top: calc(30000vw/1440);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.yellow1{
+    width: calc(40000vw/1440);
+    height: calc(30000vw/1440);
+    background-color: #FFE100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue3{
+    width: calc(30000vw/1440);
+    height: calc(30000vw/1440);
+    background-color: #0037FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white3{
+    width: calc(14000vw/1440);
+    height: calc(30000vw/1440);
+    background-color: white;
+
+}
+
+.blue4{
+    width: calc(10000vw/1440);
+    height: calc(30000vw/1440);
+    background-color: #0037FF;
+    display: flex;
+    align-items:flex-end;
+    justify-content: start;
+    overflow: hidden;
+}
+
+.pust2{
+    width: calc(50000vw/1440);
+    height: calc(30000vw/1440);
+}
+
+.white4{
+    width: calc(70000vw/1440);
+    height: calc(30000vw/1440);
+    background-color: white;
+}
+
+.pink3{
+    width: calc(14000vw/1440);
+    height: calc(30000vw/1440);
+    background-color: #FF4BCF;
+}
+
+.red2{
+    width: calc(60000vw/1440);
+    height: calc(12400vw/1440);
+    background-color: #FF051A;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue5{
+    width: calc(40000vw/1440);
+    height: calc(12400vw/1440);
+    background-color: #0037FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pink4{
+    width: calc(30000vw/1440);
+    height: calc(12400vw/1440);
+    background-color: #FF4BCF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red3{
+    width: calc(14000vw/1440);
+    height: calc(12400vw/1440);
+    background-color: #FF051A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.pink2a{
+    display: none;
+}
+
+.red2a{
+    display: none;
+}
+
+.white5{
+    display: none;
+}
+
+#year{
+    font-family: 'arial narrow italic';
+    font-size: 4vw;
+    color: white;
+}
+
+#month{
+    text-transform: uppercase;
+    font-size: 7.5vw;
+    margin-bottom: -1vw;
+    color: white;
+}
+
+#day{
+    font-family: 'arial narrow italic';
+    font-size: 10vw;
+    color: white;
+}
+
+#weekday{
+    display: inline-block;
+    font-size: 4vw;
+    color: white;
+    transform-origin: top left;
+    transform: rotate(-90deg);
+    position: absolute;
+    margin-left: 3vw;
+}
+
+#time{
+    font-family: 'arial narrow italic';
+    font-size: 7.5vw;
+    margin-bottom: -1vw;
+    color: white;
+}
+
+.runline1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    animation: run1 2s linear infinite;
+
+}
+
+.runline1 p{
+    font-size: 4vw;
+    font-family: 'arial narrow italic', Arial, Helvetica, sans-serif;
+    color: #FFE100;
+    -webkit-text-stroke: black 0.1vw;
+}
+
+.runline2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    animation: run2 1s linear infinite;
+
+}
+
+.runline2 p{
+    font-size: 4vw;
+    font-family: 'arial narrow italic', Arial, Helvetica, sans-serif;
+    color: #FFE100;
+    -webkit-text-stroke: black 0.1vw;
+}
+
+.pink1 p{
+    font-size: 7.5vw;
+    color: white;
+}
+
+.pink1 p:hover{
+    color: #0037FF;
+}
+
+.pink2 p{
+    font-size: 7.5vw;
+    color: white;
+    -webkit-text-stroke: #FFE100 0.1vw;
+    animation: color1 0.3s infinite;
+}
+
+.pink4 p{
+    font-size: 7.5vw;
+    color: white;
+    animation: rotate1 1s linear infinite;
+}
+
+.box{
+    width: calc(30000vw/1440);
+    height: calc(14000vw/1440);
+    transform: rotate(90deg);
+    position: absolute;
+    transform-origin: top left;
+    position: absolute;
+    right: calc(-30000vw/1440);
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    font-size: 7.5vw;
+}
+
+.p1{
+    animation: move1 1s linear infinite;
+}
+
+.p2{
+    animation: move2 1s linear infinite;
+}
+
+.yellow1 img{
+    width: 100%;
+    animation: scale 2s linear infinite;
+}
+
+.rand1 img{
+    width: 100%;
+    transform: scaleY(1.1);
+}
+
+.rand2 img{
+    height: 100%;
+    transform: scaleX(1.3);
+}
+
+.red3 img{
+    width: 70%;
+    cursor: pointer;
+}

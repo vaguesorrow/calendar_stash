@@ -1,0 +1,69 @@
+@keyframes run1{
+    0%{
+        transform: translateX(-20%);
+    }
+
+    100%{
+        transform: translateX(0vw);
+    }
+}
+
+@keyframes run2{
+    100%{
+        transform: translateX(-20%);
+    }
+
+    0%{
+        transform: translateX(0vw);
+    }
+}
+
+@keyframes color1{
+    0%, 100%{
+        color: white;
+    }
+
+    50%{
+        color: #FF051A;
+    }
+}
+
+@keyframes rotate1{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes move1{
+    0%, 100%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateX(-5vw);
+    }
+}
+
+@keyframes move2{
+    0%, 100%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateX(5vw);
+    }
+}
+
+@keyframes scale{
+    0%, 100%{
+        transform: scale(0.5);
+    }
+
+    50%{
+        transform: scale(1.3);
+    }
+}
