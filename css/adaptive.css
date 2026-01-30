@@ -107,6 +107,8 @@
         width: calc(28000vw/430);
         height: calc(15000vw/430);
         background-color: #FFE100;
+        display: flex;
+        align-items: center;
     }
 
     .red2{
@@ -213,5 +215,10 @@
     .red3 img{
         width: 50%;
         margin-top: 5%;
+    }
+
+    .yellow2 img{
+        width: 70%;
+        animation: scale 2s linear infinite;
     }
 }
