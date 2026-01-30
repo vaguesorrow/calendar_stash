@@ -109,6 +109,7 @@
         background-color: #FFE100;
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .red2{
